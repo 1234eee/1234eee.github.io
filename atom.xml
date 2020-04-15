@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://1234eee.github.io</id>
     <title>E+idea</title>
-    <updated>2020-04-15T10:29:27.729Z</updated>
+    <updated>2020-04-15T10:53:55.845Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://1234eee.github.io"/>
     <link rel="self" href="https://1234eee.github.io/atom.xml"/>
-    <subtitle>E+idea</subtitle>
+    <subtitle>田园将芜胡不归</subtitle>
     <logo>https://1234eee.github.io/images/avatar.png</logo>
     <icon>https://1234eee.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, E+idea</rights>
@@ -16,7 +16,5 @@
         <link href="https://1234eee.github.io/post/hello/">
         </link>
         <updated>2020-04-15T07:26:20.000Z</updated>
-        <content type="html"><![CDATA[<p>老哥你好！</p>
-]]></content>
     </entry>
 </feed>
