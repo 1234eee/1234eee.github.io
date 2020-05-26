@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://1234eee.github.io</id>
     <title>E+idea</title>
-    <updated>2020-05-26T12:49:38.905Z</updated>
+    <updated>2020-05-26T12:52:13.297Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://1234eee.github.io"/>
     <link rel="self" href="https://1234eee.github.io/atom.xml"/>
@@ -23,13 +23,6 @@
         <link href="https://1234eee.github.io/post/ge-guo-gong-zhong-dui-ke-chi-xu-fa-zhan-mu-biao-de-kan-fa/">
         </link>
         <updated>2020-05-26T12:23:12.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[百年孤独的众人]]></title>
-        <id>https://1234eee.github.io/post/di-ba-ci-du-bai-nian-gu-du/</id>
-        <link href="https://1234eee.github.io/post/di-ba-ci-du-bai-nian-gu-du/">
-        </link>
-        <updated>2020-04-15T14:10:59.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[【文献阅读】北极变绿的复杂性]]></title>
