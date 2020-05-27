@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://1234eee.github.io</id>
     <title>E+idea</title>
-    <updated>2020-05-27T01:45:56.895Z</updated>
+    <updated>2020-05-27T15:01:13.903Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://1234eee.github.io"/>
     <link rel="self" href="https://1234eee.github.io/atom.xml"/>
@@ -10,6 +10,54 @@
     <logo>https://1234eee.github.io/images/avatar.png</logo>
     <icon>https://1234eee.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, E+idea</rights>
+    <entry>
+        <title type="html"><![CDATA[少女的出逃]]></title>
+        <id>https://1234eee.github.io/post/shao-nu-de-chu-tao/</id>
+        <link href="https://1234eee.github.io/post/shao-nu-de-chu-tao/">
+        </link>
+        <updated>2020-05-27T14:48:54.000Z</updated>
+        <summary type="html"><![CDATA[<p>大概写于2018年冬<br>
+老马这部短篇集每一篇挑出来都能品很久,光是回想起故事情节就能感受到色彩在字里行间流动。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>大概写于2018年冬<br>
+老马这部短篇集每一篇挑出来都能品很久,光是回想起故事情节就能感受到色彩在字里行间流动。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我妒忌金阁寺的美]]></title>
+        <id>https://1234eee.github.io/post/wo-du-ji-jin-ge-si-de-mei/</id>
+        <link href="https://1234eee.github.io/post/wo-du-ji-jin-ge-si-de-mei/">
+        </link>
+        <updated>2020-05-27T14:44:19.000Z</updated>
+        <summary type="html"><![CDATA[<p>大概写于2019年春</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>大概写于2019年春</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[被缚的普罗米修斯]]></title>
+        <id>https://1234eee.github.io/post/bei-fu-de-pu-luo-mi-xiu-si/</id>
+        <link href="https://1234eee.github.io/post/bei-fu-de-pu-luo-mi-xiu-si/">
+        </link>
+        <updated>2020-05-27T14:41:10.000Z</updated>
+        <summary type="html"><![CDATA[<p>大概写于2017年</p>
+<p>希腊神话是神和英雄的故事。木心说，伟人敬佩英雄，然而英雄未必对伟人有同样的回应。宙斯是伟人，阿波罗是伟人，普罗米修斯是什么？英雄吧，诸神之中最有反叛精神的的普罗米修斯。雅典娜兼具智慧与武力，特洛伊之战却也不敢违背宙斯的命令出手干涉。可是被缚的普罗米修斯被火神钉在悬崖上风吹日晒的时候，每天被秃鹰挖出心肝又重生的时候，他说，我不相信一切的神明。宙斯越是因为愤怒因为恐惧而折磨他，他的反抗意志就更坚定。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>大概写于2017年</p>
+<p>希腊神话是神和英雄的故事。木心说，伟人敬佩英雄，然而英雄未必对伟人有同样的回应。宙斯是伟人，阿波罗是伟人，普罗米修斯是什么？英雄吧，诸神之中最有反叛精神的的普罗米修斯。雅典娜兼具智慧与武力，特洛伊之战却也不敢违背宙斯的命令出手干涉。可是被缚的普罗米修斯被火神钉在悬崖上风吹日晒的时候，每天被秃鹰挖出心肝又重生的时候，他说，我不相信一切的神明。宙斯越是因为愤怒因为恐惧而折磨他，他的反抗意志就更坚定。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[不定期更 | 只言片语]]></title>
+        <id>https://1234eee.github.io/post/bu-ding-qi-geng-or-zhi-yan-pian-yu/</id>
+        <link href="https://1234eee.github.io/post/bu-ding-qi-geng-or-zhi-yan-pian-yu/">
+        </link>
+        <updated>2020-05-27T14:09:08.000Z</updated>
+        <summary type="html"><![CDATA[<p>记录了我的碎碎念</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>记录了我的碎碎念</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【文献阅读】利益相关者群体在复杂社会生态系统中的智慧]]></title>
         <id>https://1234eee.github.io/post/li-yi-xiang-guan-zhe-qun-ti-zai-fu-za-she-hui-sheng-tai-xi-tong-zhong-de-zhi-hui/</id>
@@ -26,6 +74,13 @@
 <p>对自然资源的可持续管理需要对人类环境系统之间的复杂关系有足够的科学知识。由于数据的稀缺性和知识的局限性，这种理解在很多情况下都很难实现。文章探讨了利用资源利益相关者的集体智慧来克服这一挑战的潜力。以渔业为例，文章展示了通过图形心智模型将利益相关者所持有的系统知识聚合起来，即一群不同的资源使用者产生了一个社会生态关系的系统模型，其可与最佳的科学理解（专家组）相媲美。研究结果证明了来自不同资源用户群的平均模型优于同质组的模型，发现来自较大个体样本的平均模型比来自较小样本的平均模型的性能更差。 然而，当对特定利益相关者子组内的心智模型进行平均化，然后在各子组模型之间进行汇总时，效果则相反。<br>
 本研究通过提出和测试从非科学家利益相关者收集的个体心理模型的聚合方法，探讨如何利用WOC原则建立对自然资源动态的准确理解。研究相应成果发表在《Nature sustainability》上。</p>
 ]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[百年孤独的众人]]></title>
+        <id>https://1234eee.github.io/post/di-ba-ci-du-bai-nian-gu-du/</id>
+        <link href="https://1234eee.github.io/post/di-ba-ci-du-bai-nian-gu-du/">
+        </link>
+        <updated>2020-04-15T14:10:59.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[【文献阅读】北极变绿的复杂性]]></title>
@@ -102,12 +157,5 @@
 <li>结果：干旱化导致生态系统多种属性出现系统变化和突变，这些变化依次发生在植物生产力、土壤肥力、植被覆盖度和丰富度分别为0.54、0.7和0.8的三个阶段。到2100年，超过20%的陆地表面将跨过其中一个或多个阈值，应当采取行动减少干旱化对当地生态系统服务的影响。</li>
 </ul>
 ]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello!]]></title>
-        <id>https://1234eee.github.io/post/hello/</id>
-        <link href="https://1234eee.github.io/post/hello/">
-        </link>
-        <updated>2020-04-15T07:26:20.000Z</updated>
     </entry>
 </feed>
