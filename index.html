@@ -1,359 +1,378 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>E+idea</title>
-<link rel="shortcut icon" href="https://1234eee.github.io/favicon.ico?v=1590592282429">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+    <meta charset="utf-8" >
+
+<title>E+idea+++++</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://1234eee.github.io/favicon.ico?v=1590648094002">
 <link rel="stylesheet" href="https://1234eee.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="E+idea - Atom Feed" href="https://1234eee.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="田园将芜胡不归" />
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="田园将芜胡不归">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://1234eee.github.io">
-  <img class="avatar" src="https://1234eee.github.io/images/avatar.png?v=1590592282429" alt="">
-  </a>
-  <h1 class="site-title">
-    E+idea
-  </h1>
-  <p class="site-description">
-    田园将芜胡不归
-  </p>
-  <div class="menu-container">
-    
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://1234eee.github.io">
+        <img src="https://1234eee.github.io/images/avatar.png?v=1590648094002" class="site-logo">
+        <h1 class="site-title">E+idea+++++</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
       
-        <a href="/" class="menu">
-          首页
-        </a>
+        
+          <a href="https://1234eee.github.io" class="site-nav">
+            首页
+          </a>
+        
       
-    
+        
+          <a href="/archives" class="site-nav">
+            全部文章
+          </a>
+        
       
-        <a href="/archives" class="menu">
-          全部文章
-        </a>
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
       
-    
+        
+          <a href="https://1234eee.github.io/post/bu-ding-qi-geng-or-zhi-yan-pian-yu" class="site-nav">
+            关于
+          </a>
+        
       
-        <a href="/tags" class="menu">
-          标签
-        </a>
+        
+          <a href="https://1234eee.github.io/post/about-me" class="site-nav">
+            作品集
+          </a>
+        
       
-    
+    </div>
   </div>
-  <div class="social-container">
-    
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
+      
+    </div>
+    <div class="site-description">
+      田园将芜胡不归
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://1234eee.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
 </div>
 
-    
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="https://1234eee.github.io/post/bu-ding-qi-geng-or-zhi-yan-pian-yu/">
-        <h2 class="post-title">不定期更 | 只言片语</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-05-27
-        </span>
-        <span>
-          3 min read
-        </span>
-        
-          <a href="https://1234eee.github.io/tag/bd9GAaTVN/" class="post-tag">
-            # 唠嗑
-          </a>
-        
-      </div>
-      
-        <a href="https://1234eee.github.io/post/bu-ding-qi-geng-or-zhi-yan-pian-yu/" class="post-feature-image" style="background-image: url('https://1234eee.github.io/post-images/bu-ding-qi-geng-or-zhi-yan-pian-yu.jpg')">
-        </a>
-      
-      <div class="post-abstract">
-        <p>记录了我的碎碎念</p>
 
-      </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://1234eee.github.io/post/hello/">
-        <h2 class="post-title">Hello!</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-04-15
-        </span>
-        <span>
-          1 min read
-        </span>
-        
-          <a href="https://1234eee.github.io/tag/bd9GAaTVN/" class="post-tag">
-            # 唠嗑
-          </a>
-        
-      </div>
-      
-        <a href="https://1234eee.github.io/post/hello/" class="post-feature-image" style="background-image: url('https://1234eee.github.io/post-images/hello.jpg')">
-        </a>
-      
-      <div class="post-abstract">
-        
-      </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://1234eee.github.io/post/shao-nu-de-chu-tao/">
-        <h2 class="post-title">少女的出逃</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-05-27
-        </span>
-        <span>
-          5 min read
-        </span>
-        
-          <a href="https://1234eee.github.io/tag/EZquBNrVu/" class="post-tag">
-            # 谈书谈美
-          </a>
-        
-      </div>
-      
-        <a href="https://1234eee.github.io/post/shao-nu-de-chu-tao/" class="post-feature-image" style="background-image: url('https://1234eee.github.io/post-images/shao-nu-de-chu-tao.jpg')">
-        </a>
-      
-      <div class="post-abstract">
-        <p>大概写于2018年冬<br>
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://1234eee.github.io/post/shao-nu-de-chu-tao/">
+                  <h2 class="post-title">少女的出逃</h2>
+                </a>
+                <div class="post-date">
+                  2020-05-27
+                </div>
+                <div class="post-abstract">
+                  <p>大概写于2018年冬<br>
 老马这部短篇集每一篇挑出来都能品很久,光是回想起故事情节就能感受到色彩在字里行间流动。</p>
 
-      </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://1234eee.github.io/post/wo-du-ji-jin-ge-si-de-mei/">
-        <h2 class="post-title">我妒忌金阁寺的美</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-05-27
-        </span>
-        <span>
-          3 min read
-        </span>
-        
-          <a href="https://1234eee.github.io/tag/EZquBNrVu/" class="post-tag">
-            # 谈书谈美
-          </a>
-        
-      </div>
-      
-        <a href="https://1234eee.github.io/post/wo-du-ji-jin-ge-si-de-mei/" class="post-feature-image" style="background-image: url('https://1234eee.github.io/post-images/wo-du-ji-jin-ge-si-de-mei.jpg')">
-        </a>
-      
-      <div class="post-abstract">
-        <p>大概写于2019年春</p>
+                </div>
+              </div>
+              
+                <a class="right" href="https://1234eee.github.io/post/shao-nu-de-chu-tao/">
+                  <div class="feature-container" style="background-image: url('https://1234eee.github.io/post-images/shao-nu-de-chu-tao.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://1234eee.github.io/post/wo-du-ji-jin-ge-si-de-mei/">
+                  <h2 class="post-title">我妒忌金阁寺的美</h2>
+                </a>
+                <div class="post-date">
+                  2020-05-27
+                </div>
+                <div class="post-abstract">
+                  <p>大概写于2019年春</p>
 
-      </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://1234eee.github.io/post/bei-fu-de-pu-luo-mi-xiu-si/">
-        <h2 class="post-title">被缚的普罗米修斯</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-05-27
-        </span>
-        <span>
-          3 min read
-        </span>
-        
-          <a href="https://1234eee.github.io/tag/EZquBNrVu/" class="post-tag">
-            # 谈书谈美
-          </a>
-        
-      </div>
-      
-        <a href="https://1234eee.github.io/post/bei-fu-de-pu-luo-mi-xiu-si/" class="post-feature-image" style="background-image: url('https://1234eee.github.io/post-images/bei-fu-de-pu-luo-mi-xiu-si.jpg')">
-        </a>
-      
-      <div class="post-abstract">
-        <p>大概写于2017年</p>
+                </div>
+              </div>
+              
+                <a class="right" href="https://1234eee.github.io/post/wo-du-ji-jin-ge-si-de-mei/">
+                  <div class="feature-container" style="background-image: url('https://1234eee.github.io/post-images/wo-du-ji-jin-ge-si-de-mei.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://1234eee.github.io/post/bei-fu-de-pu-luo-mi-xiu-si/">
+                  <h2 class="post-title">被缚的普罗米修斯</h2>
+                </a>
+                <div class="post-date">
+                  2020-05-27
+                </div>
+                <div class="post-abstract">
+                  <p>大概写于2017年</p>
 <p>希腊神话是神和英雄的故事。木心说，伟人敬佩英雄，然而英雄未必对伟人有同样的回应。宙斯是伟人，阿波罗是伟人，普罗米修斯是什么？英雄吧，诸神之中最有反叛精神的的普罗米修斯。雅典娜兼具智慧与武力，特洛伊之战却也不敢违背宙斯的命令出手干涉。可是被缚的普罗米修斯被火神钉在悬崖上风吹日晒的时候，每天被秃鹰挖出心肝又重生的时候，他说，我不相信一切的神明。宙斯越是因为愤怒因为恐惧而折磨他，他的反抗意志就更坚定。</p>
 
-      </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://1234eee.github.io/post/li-yi-xiang-guan-zhe-qun-ti-zai-fu-za-she-hui-sheng-tai-xi-tong-zhong-de-zhi-hui/">
-        <h2 class="post-title">【文献阅读】利益相关者群体在复杂社会生态系统中的智慧</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-05-26
-        </span>
-        <span>
-          10 min read
-        </span>
-        
-          <a href="https://1234eee.github.io/tag/bzzy01-GT/" class="post-tag">
-            # 文献笔记
-          </a>
-        
-      </div>
-      
-      <div class="post-abstract">
-        <p>本文首发于 Amibo人类环境杂志公众号</p>
+                </div>
+              </div>
+              
+                <a class="right" href="https://1234eee.github.io/post/bei-fu-de-pu-luo-mi-xiu-si/">
+                  <div class="feature-container" style="background-image: url('https://1234eee.github.io/post-images/bei-fu-de-pu-luo-mi-xiu-si.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://1234eee.github.io/post/bu-ding-qi-geng-or-zhi-yan-pian-yu/">
+                  <h2 class="post-title">不定期更 | 只言片语</h2>
+                </a>
+                <div class="post-date">
+                  2020-05-27
+                </div>
+                <div class="post-abstract">
+                  <p>记录了我的碎碎念</p>
+
+                </div>
+              </div>
+              
+                <a class="right" href="https://1234eee.github.io/post/bu-ding-qi-geng-or-zhi-yan-pian-yu/">
+                  <div class="feature-container" style="background-image: url('https://1234eee.github.io/post-images/bu-ding-qi-geng-or-zhi-yan-pian-yu.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://1234eee.github.io/post/li-yi-xiang-guan-zhe-qun-ti-zai-fu-za-she-hui-sheng-tai-xi-tong-zhong-de-zhi-hui/">
+                  <h2 class="post-title">文献阅读 | 利益相关者群体在复杂社会生态系统中的智慧</h2>
+                </a>
+                <div class="post-date">
+                  2020-05-26
+                </div>
+                <div class="post-abstract">
+                  <p>本文首发于 Amibo人类环境杂志公众号</p>
 <h2 id="导语">导语</h2>
 <p>对自然资源的可持续管理需要对人类环境系统之间的复杂关系有足够的科学知识。由于数据的稀缺性和知识的局限性，这种理解在很多情况下都很难实现。文章探讨了利用资源利益相关者的集体智慧来克服这一挑战的潜力。以渔业为例，文章展示了通过图形心智模型将利益相关者所持有的系统知识聚合起来，即一群不同的资源使用者产生了一个社会生态关系的系统模型，其可与最佳的科学理解（专家组）相媲美。研究结果证明了来自不同资源用户群的平均模型优于同质组的模型，发现来自较大个体样本的平均模型比来自较小样本的平均模型的性能更差。 然而，当对特定利益相关者子组内的心智模型进行平均化，然后在各子组模型之间进行汇总时，效果则相反。<br>
 本研究通过提出和测试从非科学家利益相关者收集的个体心理模型的聚合方法，探讨如何利用WOC原则建立对自然资源动态的准确理解。研究相应成果发表在《Nature sustainability》上。</p>
 
-      </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://1234eee.github.io/post/di-ba-ci-du-bai-nian-gu-du/">
-        <h2 class="post-title">百年孤独的众人</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-04-15
-        </span>
-        <span>
-          2 min read
-        </span>
-        
-          <a href="https://1234eee.github.io/tag/EZquBNrVu/" class="post-tag">
-            # 谈书谈美
-          </a>
-        
-      </div>
-      
-        <a href="https://1234eee.github.io/post/di-ba-ci-du-bai-nian-gu-du/" class="post-feature-image" style="background-image: url('https://1234eee.github.io/post-images/di-ba-ci-du-bai-nian-gu-du.jpg')">
-        </a>
-      
-      <div class="post-abstract">
-        
-      </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://1234eee.github.io/post/wen-xian-yue-du-bei-ji-bian-lu-de-fu-za-xing/">
-        <h2 class="post-title">【文献阅读】北极变绿的复杂性</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-04-15
-        </span>
-        <span>
-          10 min read
-        </span>
-        
-          <a href="https://1234eee.github.io/tag/bzzy01-GT/" class="post-tag">
-            # 文献笔记
-          </a>
-        
-      </div>
-      
-      <div class="post-abstract">
-        <h2 id="导语">导语</h2>
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://1234eee.github.io/post/di-ba-ci-du-bai-nian-gu-du/">
+                  <h2 class="post-title">百年孤独的众人</h2>
+                </a>
+                <div class="post-date">
+                  2020-04-15
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+                <a class="right" href="https://1234eee.github.io/post/di-ba-ci-du-bai-nian-gu-du/">
+                  <div class="feature-container" style="background-image: url('https://1234eee.github.io/post-images/di-ba-ci-du-bai-nian-gu-du.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://1234eee.github.io/post/about-me/">
+                  <h2 class="post-title">作品集</h2>
+                </a>
+                <div class="post-date">
+                  2020-04-15
+                </div>
+                <div class="post-abstract">
+                  <p>我和我的PS之路<br>
+多图，点开加载半天</p>
+
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://1234eee.github.io/post/wen-xian-yue-du-bei-ji-bian-lu-de-fu-za-xing/">
+                  <h2 class="post-title">文献阅读 | 北极变绿的复杂性</h2>
+                </a>
+                <div class="post-date">
+                  2020-04-15
+                </div>
+                <div class="post-abstract">
+                  <h2 id="导语">导语</h2>
 <p>北极变绿和变褐趋势具有复杂性，许多问题和不确定性仍然存在。这些不确定性源于概念（趋势和事件）理解差异，植被指数受到自然因素、尺度和传感器平台的干扰，生态过程不能客观完全被捕捉、测量不能排除物候的影响等。</p>
 <p>解决不确定性的三个主要挑战是:(1)提高与绿化和褐变现象有关的广泛使用的术语定义的清晰度;(2)在进行生态解释时，促进对植被指数的优势和局限性的认识;(3)在冻土生产力和物候学变化分析中，更好地纳入和解释不同尺度的观测和不确定性。</p>
 
-      </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://1234eee.github.io/post/wen-xian-yue-du-ao-da-li-ya-han-di-zhi-bei-dui-2019-nian-re-lang-de-ya-ri-chi-du-xiang-ying/">
-        <h2 class="post-title">【文献阅读】澳大利亚旱地植被对2019年热浪的亚日尺度响应</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-04-15
-        </span>
-        <span>
-          11 min read
-        </span>
-        
-          <a href="https://1234eee.github.io/tag/bzzy01-GT/" class="post-tag">
-            # 文献笔记
-          </a>
-        
-      </div>
-      
-      <div class="post-abstract">
-        <h2 id="导语">导语</h2>
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://1234eee.github.io/post/wen-xian-yue-du-ao-da-li-ya-han-di-zhi-bei-dui-2019-nian-re-lang-de-ya-ri-chi-du-xiang-ying/">
+                  <h2 class="post-title">文献阅读 | 澳大利亚旱地植被对2019年热浪的亚日尺度响应</h2>
+                </a>
+                <div class="post-date">
+                  2020-04-15
+                </div>
+                <div class="post-abstract">
+                  <h2 id="导语">导语</h2>
 <ul>
 <li>研究了2019年热浪对澳大利亚旱地生态系统的影响；面对热胁迫和水胁迫，SIF比植被指数减少地更厉害；在澳大利亚，中午观测到的SIF对热胁迫的响应早于早上观测的数据</li>
 <li>两种卫星SIF数据集对水和热胁迫的敏感性都高于基于绿色度的植被指数(增强型植被指数，EVI)。此外，OCO-2 SIF观测结果显示，与GOME-2 SIF相比，OCO-2 SIF观测结果显示了更显著的减少和更早的对热应力的响应，这表明由于观测时间的不同，两个卫星SIF数据集在监测干旱和热浪事件的方式上有所不同</li>
 <li>实地测量证实了旱地植被在亚日尺度上对2019年热浪的不同响应。卫星SIF产品时间上的差异可以用来评估高温和缺水对澳大利亚旱地生态系统影响的不同因素</li>
 </ul>
 
-      </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://1234eee.github.io/post/han-di-kuo-zhang-de-jia-su-diao-jie-liao-han-di-gpp-wei-lai-de-ke-bian-xing/">
-        <h2 class="post-title">【文献阅读】旱地扩张的加速调节了旱地GPP未来的可变性</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-04-15
-        </span>
-        <span>
-          11 min read
-        </span>
-        
-          <a href="https://1234eee.github.io/tag/bzzy01-GT/" class="post-tag">
-            # 文献笔记
-          </a>
-        
-      </div>
-      
-      <div class="post-abstract">
-        <p>本文首发于 Ambio人类环境杂志公众号</p>
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://1234eee.github.io/post/han-di-kuo-zhang-de-jia-su-diao-jie-liao-han-di-gpp-wei-lai-de-ke-bian-xing/">
+                  <h2 class="post-title">文献阅读 | 旱地扩张的加速调节了旱地GPP未来的可变性</h2>
+                </a>
+                <div class="post-date">
+                  2020-04-15
+                </div>
+                <div class="post-abstract">
+                  <p>本文首发于 Ambio人类环境杂志公众号</p>
 <h2 id="导语">导语</h2>
 <p>旱地覆盖了地球表面的41%，是全球碳汇年际变化的最大来源。预计旱地在下个世纪将加速扩张，但这种扩张对GPP可变性的影响仍然难以捉摸。研究表明，到2100年，旱地总体GPP将比2000年至2014年的基线增加12%±3%。由于旱地将在很大程度上扩张为早期的生态系统，旱地GPP的增加可能不会增加全球GPP。此外，单位旱地面积的GPP值将随着历史旱地退化速度超过扩展旱地的GPP值而降低。半湿润、半干旱、干旱和超干旱地区之间的旱地扩张和气候诱导的转化将导致区域和亚型对全球旱地GPP变异的重大影响。文章的结果突出了旱地亚型在更频繁和更严重的气候极端情况下的脆弱性，并表明区域差异将需要不同的缓解策略</p>
 
-      </div>
-    </article>
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://1234eee.github.io/post/wen-xian-yue-du-gan-han-qu-dong-de-quan-qiu-sheng-tai-xi-tong-yu-zhi/">
+                  <h2 class="post-title">文献阅读 | 干旱驱动的全球生态系统阈值</h2>
+                </a>
+                <div class="post-date">
+                  2020-04-15
+                </div>
+                <div class="post-abstract">
+                  <p>本文首发于Ambio人类环境杂志公众号</p>
+<h2 id="导语">导语</h2>
+<ul>
+<li>背景：气候变化加剧全球范围干旱，影响旱地生态系统的结构和功能。</li>
+<li>问题：干旱化（aridification)是否导致了逐步的和系统的生态系统变化仍不清楚</li>
+<li>方法：研究了全球旱地内20处生态系统的结构和功能对干旱的响应。</li>
+<li>结果：干旱化导致生态系统多种属性出现系统变化和突变，这些变化依次发生在植物生产力、土壤肥力、植被覆盖度和丰富度分别为0.54、0.7和0.8的三个阶段。到2100年，超过20%的陆地表面将跨过其中一个或多个阈值，应当采取行动减少干旱化对当地生态系统服务的影响。</li>
+</ul>
+
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://1234eee.github.io/post/hello/">
+                  <h2 class="post-title">Hello!</h2>
+                </a>
+                <div class="post-date">
+                  2020-04-15
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+                <a class="right" href="https://1234eee.github.io/post/hello/">
+                  <div class="feature-container" style="background-image: url('https://1234eee.github.io/post-images/hello.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+
+          <div class="pagination-container">
+  
   
 </div>
 
-    
-        <div class="pagination-container">
-  
-  
-    <a href="https://1234eee.github.io/page/2" class="next-page">下一页</a>
-  
-</div>
-
-    
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://1234eee.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
+        </div>
       </div>
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+
   </body>
 </html>
